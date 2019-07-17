@@ -15,9 +15,9 @@
             "timeout": 60000
         },
         "dev": {
-            "API_BASE": "https://testnodes.wavesnodes.com/",
-            "CHAIN_ID": "T",
-            "SEED": "begin bone walk feature tilt enact door depart motion carpet pencil surprise",
+            "API_BASE": "http://devnet-aws-ir-2.wavesnodes.com:6869/",
+            "CHAIN_ID": "D",
+            "SEED": "create genesis wallet devnet-0",
             "timeout": 60000
         }
     },
