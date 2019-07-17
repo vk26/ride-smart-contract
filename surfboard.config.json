@@ -1,0 +1,28 @@
+{
+    "ride_directory": "ride",
+    "test_directory": "test",
+    "envs": {
+        "custom": {
+            "API_BASE": "http://localhost:6869/",
+            "CHAIN_ID": "R",
+            "SEED": "waves private node seed with waves tokens",
+            "timeout": 60000
+        },
+        "testnet": {
+            "API_BASE": "https://testnodes.wavesnodes.com/",
+            "CHAIN_ID": "T",
+            "SEED": "begin bone walk feature tilt enact door depart motion carpet pencil surprise",
+            "timeout": 60000
+        },
+        "dev": {
+            "API_BASE": "https://testnodes.wavesnodes.com/",
+            "CHAIN_ID": "T",
+            "SEED": "begin bone walk feature tilt enact door depart motion carpet pencil surprise",
+            "timeout": 60000
+        }
+    },
+    "defaultEnv": "dev",
+    "mocha": {
+        "timeout": 60000
+    }
+}
